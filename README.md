@@ -1,5 +1,5 @@
 # Update-583-on-Alma
-A bookmarklet to fill in details of a 583 field in the Alma Metadata Editor at UCL.
+A bookmarklet to fill in details of a 583 field in the Alma Metadata Editor at UCL. Also works on the 995 field.
 
 It adds a standard $$a NBK-R as per Jisc book retention policy. The coded date 20 years in the future is in $$c YYYYMM. The $$5 is UCL's organisation code UkLUC. The bookmarklet prompts for a collection and assigns a code if recognised which then entered into $$x.
 
@@ -9,7 +9,7 @@ To install the bookmarklet, add the following code into the URL or Location sect
 
 To use the bookmarklet:
 
-* Click on the 583 field in a record
+* Click on the 583 or 995 field in a record
 * Click on the bookmarklet on the your bookmarks toolbar
 
-To work, it requires a 583$$a which is otherwise blank and with no other subfields.
+To work, it requires a 583$$a or 995$$a  which is otherwise blank and with no other subfields.
